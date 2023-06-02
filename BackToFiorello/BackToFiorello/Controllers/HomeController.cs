@@ -7,9 +7,7 @@ using System.Diagnostics;
 using System.Reflection.Metadata;
 using System.Xml.Linq;
 
-namespace BackToFiorello.Controllers 
-
-{
+namespace BackToFiorello.Controllers {
     public class HomeController : Controller {
         private readonly AppDbContext _context;
 
@@ -38,7 +36,8 @@ namespace BackToFiorello.Controllers
 
             List<Instagram> instagram = await _context.Instagram.Where(i => !i.SoftDelete).ToListAsync();
 
-            HomeVM model = new(){
+            HomeVM model = new()
+            {
                 Sliders = sliders,
                 SliderInfos = sliderInfo,
                 Blogs = blogs,
@@ -52,6 +51,6 @@ namespace BackToFiorello.Controllers
             return View(model);
         }
 
-       
+
     }
 }

@@ -27,7 +27,13 @@ namespace BackToFiorello.Controllers {
             return View(products);
         }
 
-               
+        [HttpGet]
+        public async Task<IActionResult> ShowMoreOrLess(int skip)
+        {
+            IEnumerable<Product> products = await _context.Products.Include(m => m.ProductImages).Where(m => !m.SoftDelete).Skip(skip).Take(4).ToListAsync();
+            return PartialView("_ProductsPartial", products);
+        }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         

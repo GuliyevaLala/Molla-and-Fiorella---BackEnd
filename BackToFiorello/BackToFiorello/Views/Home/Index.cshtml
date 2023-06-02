@@ -14,8 +14,9 @@
             <div class="owl-carousel slider">
             @foreach (var slider in Model.Sliders)
             {
-                <div><img src="~/assets/img/@slider.Image" alt=""> </div>                
+                <div> <img src="~/assets/img/@slider.Image" alt=""> </div>
             }
+                
             </div>
             <div class="container context pl-lg-5 ml-lg-3">
                 <div class="row">
@@ -24,6 +25,13 @@
                             @Html.Raw(Model.SliderInfos.Title)
                             <p class="text-black-50 d-none d-sm-block">@Model.SliderInfos.Description</p>
                         </div>
+
+                         @*  <div class="text">
+                            <h1>Send <span>flowers</span> like</h1>
+                            <h1>you mean it</h1>
+                            <p class="text-black-50 d-none d-sm-block">Where flowers are our inspiration to create lasting memories. Whatever the occasion, our flowers will
+                                make it special cursus a sit amet mauris. </p>
+                        </div>*@
                         <div class="img">
                             <img src="~/assets/img/@Model.SliderInfos.SignImage" alt="">
                         </div>

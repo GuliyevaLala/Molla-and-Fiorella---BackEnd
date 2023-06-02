@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "B3sHjjAxao8kOR2fc1CS9HfPjJAadmufE8HZOpGG1XA=",
+  "Hash": "Z0F4wG7hIEZ2axjQu8JqhFGzT086Vz7go1TN1BG4+50=",
   "Source": "BackToFiorello",
   "BasePath": "_content/BackToFiorello",
   "Mode": "Default",
@@ -780,6 +780,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\img\\testimonial-img-2.png"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Desktop\\z\\BackToFiorello\\BackToFiorello\\wwwroot\\assets\\js\\basket.js",
+      "SourceId": "BackToFiorello",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Desktop\\z\\BackToFiorello\\BackToFiorello\\wwwroot\\",
+      "BasePath": "_content/BackToFiorello",
+      "RelativePath": "assets/js/basket.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\js\\basket.js"
     },
     {
       "Identity": "C:\\Users\\Admin\\Desktop\\z\\BackToFiorello\\BackToFiorello\\wwwroot\\assets\\js\\script.js",
